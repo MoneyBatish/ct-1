@@ -1,10 +1,14 @@
+//Name=Money Batish
+//Roll No=2010990465
+//set=3
+//question 1
 #include<iostream>
 #include <bits/stdc++.h>
 
 using namespace std;
 
 
-void altArr(int arr[], int n)
+void swapArr(int arr[], int n)
 {
     for (int i = 1; i < n; i += 2)
     {
@@ -19,13 +23,14 @@ void altArr(int arr[], int n)
 int main()
 {
     int n;
+    cout<<"enter the length of an array"<<endl;
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
     
-    altArr(arr,n);
+    swapArr(arr,n);
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
