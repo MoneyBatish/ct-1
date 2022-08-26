@@ -1,3 +1,7 @@
+//Name=Money Batish 
+//Roll no=2010990465 
+//Set 3
+//q2
 #include <bits/stdc++.h>
 
 using namespace std;
